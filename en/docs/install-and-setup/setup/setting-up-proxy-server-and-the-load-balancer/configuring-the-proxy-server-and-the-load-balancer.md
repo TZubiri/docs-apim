@@ -14,7 +14,7 @@ Create an SSL certificate for the load balancer using the following instructions
 1.  Create the Server Key.
 
     ``` java
-    sudo openssl genrsa -des3 -out <key_name>.key 1024
+    sudo openssl genrsa -des3 -out <key_name>.key 2048
     ```
 
 2.  Submit the certificate signing request (CSR).
