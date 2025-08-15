@@ -1,4 +1,4 @@
-# Configuring the Proxy Server and the Load Balancer
+""# Configuring the Proxy Server and the Load Balancer
 
 A load balancer or reverse proxy is required to map external traffic with ports and URLs that WSO2 API Manager (WSO2 API-M) uses internally. 
 
@@ -425,7 +425,7 @@ To do that add the following to the `<API-M_HOME>/repository/conf/deployment.tom
 [transport.https.properties]
 proxyPort = 443
 [server]
-hostname = "<loadbalancer_hostname>""
+hostname = "<loadbalancer_hostname>"
 ```
 
 !!!note 
